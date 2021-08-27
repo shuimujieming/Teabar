@@ -1,0 +1,71 @@
+
+<view style="margin-top: 30%;">
+
+</view>
+
+ <view class="view1" >
+
+   <button  type="primary" style="width:30%; background-color:orange;border-radius: 98rpx 30rpx 30rpx 98rpx;" class='btn1' bindtap="dianyuan" hover-class="btn-hover">
+    <image class='btnImg' src='/images/dianyuan.png'></image>
+    <view>
+    电源
+    </view>
+ </button>
+
+   <button type="primary" style="width:30%;background-color:orange;border-radius: 30rpx 98rpx 98rpx 30rpx;" class='btn1' bindtap="qushui" hover-class="btn-hover">
+    <image class='btnImg' src='/images/qushui.png'></image>
+    <view>
+    取水
+    </view>
+ </button>
+
+</view>
+
+<view class="view1">
+
+<button  type="primary" style="width:30%;background-color:orange;border-radius: 98rpx 30rpx 30rpx 98rpx;" class='btn1' bindtap="jiare" hover-class="btn-hover">
+ <image class='btnImg' src='/images/jiare.png'></image>
+ <view>
+    加热
+    </view>
+</button>
+
+<button type="primary" style="width:30%;background-color:orange;border-radius: 30rpx 98rpx 98rpx 30rpx;" class='btn1' bindtap="tiaowen" hover-class="btn-hover">
+ <image class='btnImg' src='/images/tiaowen.png'></image>
+ <view>
+    调温
+    </view>
+</button>
+
+</view>
+
+<view class="view1">
+
+<button  type="primary" style="width:30%;background-color:orange;border-radius: 98rpx 30rpx 30rpx 98rpx;" class='btn1' bindtap="baowen" hover-class="btn-hover">
+ <image class='btnImg' src='/images/baowen.png'></image>
+ <view>
+    保温
+    </view>
+</button>
+
+<button type="primary" style="width:30%;background-color:orange;border-radius: 30rpx 98rpx 98rpx 30rpx;" class='btn1' bindtap="qulengshui" hover-class="btn-hover">
+ <image class='btnImg' src='/images/qulengshui.png'></image>
+ <view>
+    取冷水
+    </view>
+</button>
+
+</view> 
+
+
+
+<view class="view1">
+
+<button  type="primary" style="width:30%;background-color:orange;border-radius: 98rpx 98rpx 98rpx 98rpx;" class='btn1'  bindtap="temperature">
+ <image class='btnImg' src='/images/temperature.png'></image>
+ <view>
+   {{receivedMsg}}
+    </view>
+</button>
+
+</view> 
